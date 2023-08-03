@@ -1,0 +1,15 @@
+main{
+    text-align: center;
+    padding-top: 5em;
+    color: #efefef;
+}
+.home-title{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: .3em;
+}
+.home-subtitle{
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: 1em;
+}

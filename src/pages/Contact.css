@@ -1,0 +1,82 @@
+
+
+.contact-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin-top: 2em;
+    padding: 3em;
+    gap: 5px 10px;
+    grid-template-areas:
+        ". . contact-title contact-title contact-title contact-title contact-title contact-title contact-title . ."
+        ". . address address address address name email email . ."
+        ". . phone phone phone phone message message message . ."
+        ". . myemail myemail myemail myemail message message message . ."
+        ". . social social social social btn . . . ."
+    ;
+    
+}
+.input{
+    border-radius: 10px;
+    padding: 1em 2em;
+}
+.btn{
+    text-align: center;
+}
+.address {
+    grid-area: address;
+}
+
+.phone {
+    grid-area: phone;
+}
+
+.email {
+    grid-area: email;
+}
+
+.myemail {
+    grid-area: myemail;
+}
+.contact-title{
+    grid-area: contact-title;
+    color: #1792d2;
+}
+.message {
+    grid-area: message;
+}
+
+.name {
+    grid-area: name;
+}
+
+.social {
+    grid-area: social;
+}
+
+.btn {
+    grid-area: btn;
+}
+
+@media(max-width:768px) {
+    .contact-container {
+        
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: .5em;
+        grid-template-areas:
+            "contact-title"
+            "address"
+            "phone"
+            " myemail "
+            "social"
+            "name"
+            " email "
+            " message"
+            " message "
+            " btn "
+        ;
+    }
+
+   
+    
+}

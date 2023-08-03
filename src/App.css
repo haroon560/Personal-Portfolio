@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background: #081b29;
+  line-height: 1.6;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+
+}
+.btn{
+  padding: .8em 2.5em;
+  background: #1792d2;
+  color: #081b29;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+}
