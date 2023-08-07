@@ -11,7 +11,7 @@ function Home(){
         <main>
             <div className="container">
                 <h1 className="home-title">Haroon Ahmadzai</h1>
-                <h2 className="home-subtitle">Creative Designer</h2>
+                <h2 className="home-subtitle">Creative<strong></strong></h2>
                 <a onClick={handleClick} className="btn" href="#">Get in touch</a>
             </div>
         </main>

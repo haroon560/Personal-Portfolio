@@ -20,7 +20,7 @@ function Modal(props) {
                     <div className="left-head">
                         <img className="pop-img" src={haroonimg} alt=""></img>
                         <h3 className="pup-up-title">Haroon Ahmadzai</h3>
-                        <h4 className="pup-up-sub-title">Creative Designer</h4>
+                        <h4 className="pup-up-sub-title">Creative <strong></strong></h4>
                     </div>
 
                     <div class="left-info">

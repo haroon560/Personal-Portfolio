@@ -209,3 +209,18 @@
         display: none;
     }
 }
+.pup-up-sub-title strong{
+  margin-left: 3px;
+}
+.pup-up-sub-title strong::before{
+  content: "";
+  animation: animate 6s infinite;
+}
+@keyframes animate{
+  0%{
+      content: "Designer";
+  }
+  100%{
+      content:"Freelancer";
+  }
+}
